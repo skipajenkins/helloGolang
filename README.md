@@ -43,11 +43,12 @@ hello/
 └── README.md
 ```
 File Breakdown
-File	Purpose
-hello.go	Main Go source file
-go.mod	Defines the Go module and dependencies
-go.sum	Records exact dependency versions
-README.md	Project documentation
+| File | Purpose |
+|------|--------|
+| go.mod | Defines the Go module |
+| go.sum | Tracks dependency versions |
+| main.go | Application entry point |
+
 
 ---
 
@@ -169,12 +170,13 @@ Don't communicate by sharing memory, share memory by communicating.
 ```
 
 ## 🧩 Key Concepts Demonstrated
-Concept	Explanation
-Go Modules	Dependency management via go.mod
-Entry Point	func main()
-Imports	Standard + external packages
-Dependency Fetching	Automatic via go run
-Compilation	Go produces native binaries
+| Concept | Explanation |
+|--------|------------|
+| Go Modules | Dependency management via `go.mod` |
+| Entry Point | `func main()` |
+| Imports | Standard + external packages |
+| Dependency Fetching | Automatic via `go run` |
+| Compilation | Go produces native binaries |
 
 ---
 
